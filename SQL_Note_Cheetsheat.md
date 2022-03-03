@@ -25,13 +25,15 @@ Principle:
     1. VARCHAR
   4. FLOAT/REAL
 
-Create a Database:
+
+#CREATE
+##Create a Database:
 
 CREATE DATABASE IF NOT EXISTS 資料庫名稱 
 COLLATE 編碼;
 
-  CREATE DATABASE IF NOT EXISTS demo_shop 
-  COLLATE utf8mb4_unicode_ci;
+` CREATE DATABASE IF NOT EXISTS demo_shop 
+  COLLATE utf8mb4_unicode_ci;`
 
 
 Create a Table: CREATE TABLE
