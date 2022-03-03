@@ -73,6 +73,6 @@ INT 為整數*
 
 `INSERT INTO users VALUES`   
     `(1, 'Jack', 20, 'Male'),`  
-    `(2, 'Amy', 33, 'Female'),` 
+    `(2, 'Amy', 33, 'Female'),`  
     `(3, 'Tony', 55, 'Male')`    
 `;`
