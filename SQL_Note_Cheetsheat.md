@@ -76,3 +76,21 @@ INT 為整數*
     `(2, 'Amy', 33, 'Female'),`  
     `(3, 'Tony', 55, 'Male')`    
 `;`
+
+## UPDATE
+
+**UPDATE 資料表  
+SET 屬性 = 更新值  
+WHERE 條件;  **
+
+`UPDATE users
+SET age = 18
+WHERE username = 'Jack';`
+
+## SQLite 整理
+
+ 顯示格式設定
+.mode column 分隔顯示欄位
+.headers on 加上標頭
+.separator ROW "\n\n" 每筆 row 資料用 \n\n 兩個換行進行分隔
+
