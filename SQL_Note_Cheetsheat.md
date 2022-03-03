@@ -83,8 +83,16 @@ INT 為整數*
 SET 屬性 = 更新值  
 WHERE 條件;  **
 
-`UPDATE users
-SET age = 18
+`UPDATE users  
+SET age = 18  
+WHERE username = 'Jack';`
+
+## DELETE
+
+**DELETE FROM 資料表  
+WHERE 條件;**
+
+`DELETE FROM users  
 WHERE username = 'Jack';`
 
 ## SQLite 整理
