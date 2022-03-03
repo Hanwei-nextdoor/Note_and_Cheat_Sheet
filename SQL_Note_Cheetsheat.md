@@ -65,14 +65,14 @@ INT 為整數*
 **INSERT INTO 資料表名稱 VALUES (欄位名稱)  
 (欄位資料1, 欄位資料2);**
 
-`INSERT INTO users (id, username, age, gender) VALUES   
-    (1, 'Jack', 20, 'Male'),  
-    (2, 'Amy', 33, 'Female'),  
-    (3, 'Tony', 55, 'Male')  
-;`
+`INSERT INTO users (id, username, age, gender) VALUES`   
+   `(1, 'Jack', 20, 'Male'),`  
+   `(2, 'Amy', 33, 'Female'),`  
+   `(3, 'Tony', 55, 'Male')`  
+`;`
 
-`INSERT INTO users VALUES   
-    (1, 'Jack', 20, 'Male'),  
-    (2, 'Amy', 33, 'Female'),  
-    (3, 'Tony', 55, 'Male')  
-;`
+`INSERT INTO users VALUES`   
+    `(1, 'Jack', 20, 'Male'),`  
+    `(2, 'Amy', 33, 'Female'),` 
+    `(3, 'Tony', 55, 'Male')`  
+`;`
