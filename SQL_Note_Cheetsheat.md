@@ -95,23 +95,38 @@ SELECT * FROM high_avg_category_prod;
     `(3, 'Tony', 55, 'Male')`    
 `;`
 
+## SELECT
+
+### Subquery
+
+**SELECT 欄位
+FROM (子查詢) AS 別名;**
+
+```SELECT name
+FROM (SELECT name, price FROM products)
+AS only_name_price_product;
+
+```
+
 ## UPDATE
 
 **UPDATE 資料表  
 SET 屬性 = 更新值  
 WHERE 條件;  **
 
-`UPDATE users  
+```UPDATE users  
 SET age = 18  
-WHERE username = 'Jack';`
+WHERE username = 'Jack';
+```
 
 ## DELETE
 
 **DELETE FROM 資料表  
 WHERE 條件;**
 
-`DELETE FROM users  
-WHERE username = 'Jack';`
+```DELETE FROM users  
+WHERE username = 'Jack';
+```
 
 ## SQLite 整理
 
