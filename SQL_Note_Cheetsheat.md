@@ -38,17 +38,18 @@ COLLATE 編碼;**
 
 ### Create a Table: CREATE TABLE
 
-**CREATE TABLE 資料表名稱 (欄位名稱 欄位屬性);**
+**CREATE TABLE 資料表名稱   
+(欄位名稱 欄位屬性);**
 
-*id 為主鍵，資料不可重複，整數型別，非 NOT NULL 值（不允許空值）
-VARCHAR(長度) 為可變字串資料型別
+*id 為主鍵，資料不可重複，整數型別，非 NOT NULL 值（不允許空值）  
+VARCHAR(長度) 為可變字串資料型別  
 INT 為整數*
 
 `CREATE TABLE users (
-    id INT PRIMARY KEY NOT NULL UNIQUE,
-    username VARCHAR(12) NOT NULL,
-    age INT,
-    gender VARCHAR(6)
+    id INT PRIMARY KEY NOT NULL UNIQUE,  
+    username VARCHAR(12) NOT NULL,  
+    age INT,  
+    gender VARCHAR(6)  
 );`
 
 ## DROP
@@ -61,16 +62,17 @@ INT 為整數*
 
 ## INSERT
 
-**INSERT INTO 資料表名稱 VALUES (欄位名稱)(欄位資料1, 欄位資料2);**
+**INSERT INTO 資料表名稱 VALUES (欄位名稱)  
+(欄位資料1, 欄位資料2);**
 
-`INSERT INTO users (id, username, age, gender) VALUES 
-    (1, 'Jack', 20, 'Male'),
-    (2, 'Amy', 33, 'Female'),
-    (3, 'Tony', 55, 'Male')
+`INSERT INTO users (id, username, age, gender) VALUES   
+    (1, 'Jack', 20, 'Male'),  
+    (2, 'Amy', 33, 'Female'),  
+    (3, 'Tony', 55, 'Male')  
 ;`
 
-`INSERT INTO users VALUES 
-    (1, 'Jack', 20, 'Male'),
-    (2, 'Amy', 33, 'Female'),
-    (3, 'Tony', 55, 'Male')
+`INSERT INTO users VALUES   
+    (1, 'Jack', 20, 'Male'),  
+    (2, 'Amy', 33, 'Female'),  
+    (3, 'Tony', 55, 'Male')  
 ;`
