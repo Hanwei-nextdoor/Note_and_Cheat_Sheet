@@ -52,6 +52,24 @@ INT 為整數*
     gender VARCHAR(6)  
 );`
 
+### Create a View: CREATE VIEW
+
+**CREATE VIEW view_name (檢視表欄位名稱1, 檢視表欄位名稱2)  
+AS 查詢語法敘述; **
+
+
+```/* 創建 View 檢視表 */
+CREATE VIEW high_avg_category_prod (category, num_count, sum_price)
+AS
+SELECT category, COUNT(*), SUM(price)
+FROM products
+GROUP BY category
+HAVING AVG(price) > 10000;
+
+/* 透過 View 取值 */
+SELECT * FROM high_avg_category_prod;
+```
+
 ## DROP
 **DROP DATABASE/TABLE 資料庫/資料表名稱;**
 
