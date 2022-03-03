@@ -26,8 +26,8 @@ Principle:
   4. FLOAT/REAL
 
 
-#CREATE
-##Create a Database:
+# CREATE
+## Create a Database:
 
 CREATE DATABASE IF NOT EXISTS 資料庫名稱 
 COLLATE 編碼;
