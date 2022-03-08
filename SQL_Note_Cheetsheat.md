@@ -106,10 +106,11 @@ Also you can use comparison operator like:
 - = equal
 - <> not equal
 - < less than
-- > greater than
+- /> greater than
 - /<= less than or equal to
 - />= greater than or equal to
 
+You can also use AND, OR as logical operator.
 
 ### Subquery
 
