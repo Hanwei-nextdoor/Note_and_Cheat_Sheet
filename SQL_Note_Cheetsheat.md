@@ -78,6 +78,30 @@ SELECT * FROM high_avg_category_prod;
 
 # 3. DATA MANIPULATION LANGUAGE
 
+## SELECT
+
+Selecting *fields* (or *column* ) from a table.
+
+`SELECT clnm_1 FROM table_1`
+
+You can select multiple columns:
+
+`SELECT clmn_1, clmn_2 FROM table_1`
+
+Or HAVE IT ALL by using /* as *all*:
+
+`SELECT * FROM table_1`
+
+### Subquery
+
+**SELECT 欄位
+FROM (子查詢) AS 別名;**
+
+```SELECT name
+FROM (SELECT name, price FROM products)
+AS only_name_price_product;
+
+```
 ## INSERT
 
 **INSERT INTO 資料表名稱 VALUES (欄位名稱)  
@@ -94,19 +118,6 @@ SELECT * FROM high_avg_category_prod;
     `(2, 'Amy', 33, 'Female'),`  
     `(3, 'Tony', 55, 'Male')`    
 `;`
-
-## SELECT
-
-### Subquery
-
-**SELECT 欄位
-FROM (子查詢) AS 別名;**
-
-```SELECT name
-FROM (SELECT name, price FROM products)
-AS only_name_price_product;
-
-```
 
 ## UPDATE
 
