@@ -96,12 +96,28 @@ You can also select distinct values from a column using **DISTINCT**:
 
 `SELECT DISTINCT country FROM table_1`
 
+## WHERE: a conditional term:
+
+You can use WHERE as a filter:
+
+`SELECT * FROM table WHERE clmn1 = 'APPLE'`
+
+Also you can use comparison operator like:
+- = equal
+- <> not equal
+- < less than
+- > greater than
+- <= less than or equal to
+- >= greater than or equal to
+
+
 ### Subquery
 
 **SELECT 欄位
 FROM (子查詢) AS 別名;**
 
-```SELECT name
+```
+SELECT name
 FROM (SELECT name, price FROM products)
 AS only_name_price_product;
 
@@ -111,13 +127,15 @@ AS only_name_price_product;
 **INSERT INTO 資料表名稱 VALUES (欄位名稱)  
 (欄位資料1, 欄位資料2);**
 
-```INSERT INTO users (id, username, age, gender) VALUES
+```
+INSERT INTO users (id, username, age, gender) VALUES
    (1, 'Jack', 20, 'Male'), 
    (2, 'Amy', 33, 'Female'), 
    (3, 'Tony', 55, 'Male');
 ```
 
-```INSERT INTO users VALUES  
+```
+INSERT INTO users VALUES  
     (1, 'Jack', 20, 'Male'),
     (2, 'Amy', 33, 'Female'),
     (3, 'Tony', 55, 'Male');
