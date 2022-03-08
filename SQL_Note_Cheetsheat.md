@@ -80,7 +80,7 @@ SELECT * FROM high_avg_category_prod;
 
 ## SELECT
 
-Selecting *fields* (or *column* ) from a table.
+Selecting *fields* (or *column* ) from a table:
 
 `SELECT clnm_1 FROM table_1`
 
@@ -88,9 +88,13 @@ You can select multiple columns:
 
 `SELECT clmn_1, clmn_2 FROM table_1`
 
-Or HAVE IT ALL by using /* as *all*:
+Or HAVE IT ALL by using * as *all*:
 
 `SELECT * FROM table_1`
+
+You can also select distinct values from a column using **DISTINCT**:
+
+`SELECT DISTINCT country FROM table_1`
 
 ### Subquery
 
@@ -138,6 +142,17 @@ WHERE 條件;**
 ```DELETE FROM users  
 WHERE username = 'Jack';
 ```
+
+
+# 4. Function
+
+## Aggegrate function
+
+### COUNT()
+### SUM()
+### AVG()
+### MAX()
+### MIN()
 
 ## SQLite 整理
 
