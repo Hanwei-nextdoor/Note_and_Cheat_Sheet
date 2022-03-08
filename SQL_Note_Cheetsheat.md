@@ -107,8 +107,8 @@ Also you can use comparison operator like:
 - <> not equal
 - < less than
 - > greater than
-- <= less than or equal to
-- >= greater than or equal to
+- /<= less than or equal to
+- />= greater than or equal to
 
 
 ### Subquery
